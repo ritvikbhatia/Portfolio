@@ -4,5 +4,12 @@ import styles from "../styles/Home.module.css";
 import { Box } from "../styles";
 
 export default function Home() {
-  return <Box>Hi</Box>;
+  return (
+    <Box>
+      hi
+      <Box height={1500} width={89} backgroundColor="blue">
+        AA
+      </Box>
+    </Box>
+  );
 }
