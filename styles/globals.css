@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "agent";
+  src: url("../public/fonts/agent_orange/AGENTORANGE.TTF");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ubantuH";
+  src: url("../public//fonts/Ubuntu/Ubuntu-Bold.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ubantuL";
+  src: url("../public/fonts/Ubuntu/Ubuntu-Light.ttf");
+  font-style: normal;
+  font-display: swap;
+}

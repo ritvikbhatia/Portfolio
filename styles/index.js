@@ -143,6 +143,7 @@ export const Para = styled.p(
   border,
   layout
 );
+
 export const Label = styled.p(
   {
     fontSize: theme.fontSizes[4],
@@ -198,8 +199,8 @@ export const Tags = styled.div(
 export const H1 = styled.h1(
   {
     fontSize: theme.fontSizes[10],
-    color: theme.colors.blue,
-    fontFamily: theme.fonts.DM,
+    color: theme.colors.white,
+    fontFamily: theme.fonts.UH,
     fontWeight: theme.fontWeights.bold,
     lineHeight: "64px",
   },
@@ -299,10 +300,9 @@ export const H3 = styled.h3(
 export const H5 = styled.h5(
   {
     fontSize: theme.fontSizes[6],
-    color: theme.colors.blue,
-    fontFamily: theme.fonts.DM,
+    color: theme.colors.primary,
+    fontFamily: theme.fonts.UL,
     fontWeight: theme.fontWeights.normal,
-    lineHeight: "26px",
   },
   space,
   color,

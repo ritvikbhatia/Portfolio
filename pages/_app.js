@@ -2,6 +2,9 @@ import "../styles/globals.css";
 import Particles from "react-particles-js";
 import config from "../config/particlesjs-config";
 import { colors } from "../styles/theme";
+import "../styles/globals.css";
+import Header from "../components/Header";
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -28,6 +31,7 @@ function MyApp({ Component, pageProps }) {
           params={config}
         ></Particles>
       </div>
+      <Header></Header>
       <Component {...pageProps}></Component>
     </>
   );

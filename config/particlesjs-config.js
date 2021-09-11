@@ -1,3 +1,4 @@
+import { colors } from "../styles/theme";
 const config = {
   particles: {
     number: {
@@ -8,7 +9,7 @@ const config = {
       },
     },
     color: {
-      value: "#1b1e34",
+      value: colors?.back2,
     },
     shape: {
       type: "polygon",

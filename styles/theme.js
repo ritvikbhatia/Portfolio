@@ -5,17 +5,19 @@ breakpoints.md = breakpoints[1];
 breakpoints.lg = breakpoints[2];
 
 export const colors = {
-  back: "#2D3142",
-  grey: "#6E798C",
-  orange: "#ED6B65",
-  blue: "#1D487B",
+  // back: "#2D3142",
+  back: "#202431", //dark
+  back2: "#868ca0", //light
+  primary: "#1fe477",
   white: "#fff",
   lightGrey: "#f2f2f2",
 };
 
 const fonts = {
-  OP: "Open SANS",
+  OP: "Sinisuka",
   DM: "DM SANS",
+  UH: "ubantuH",
+  UL: "ubantuL",
 };
 
 const space = [
