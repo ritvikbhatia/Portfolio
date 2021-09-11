@@ -375,6 +375,23 @@ export const Input = styled("input")(
   border,
   shadow
 );
+export const Button = styled("h3")(
+  {
+    cursor: "pointer",
+    color: theme.colors.white,
+    padding: 2,
+    "&:hover": {
+      color: theme.colors.primary /* Green */,
+    },
+  },
+  space,
+  color,
+  typography,
+  layout,
+  position,
+  border,
+  shadow
+);
 export const TextArea = styled("textarea")(
   {
     border: "1px solid #d3d3d3",
