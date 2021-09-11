@@ -1,23 +1,23 @@
 const config = {
   particles: {
     number: {
-      value: 400,
+      value: 6,
       density: {
         enable: true,
         value_area: 800,
       },
     },
     color: {
-      value: "#000000",
+      value: "#1b1e34",
     },
     shape: {
-      type: "circle",
+      type: "polygon",
       stroke: {
         width: 0,
-        color: "#000000",
+        color: "#000",
       },
       polygon: {
-        nb_sides: 5,
+        nb_sides: 6,
       },
       image: {
         src: "img/github.svg",
@@ -26,7 +26,7 @@ const config = {
       },
     },
     opacity: {
-      value: 0.5,
+      value: 0.3,
       random: true,
       anim: {
         enable: false,
@@ -36,26 +36,26 @@ const config = {
       },
     },
     size: {
-      value: 10,
-      random: true,
+      value: 160,
+      random: false,
       anim: {
-        enable: false,
-        speed: 40,
-        size_min: 0.1,
+        enable: true,
+        speed: 10,
+        size_min: 40,
         sync: false,
       },
     },
     line_linked: {
       enable: false,
-      distance: 500,
+      distance: 200,
       color: "#ffffff",
-      opacity: 0.4,
+      opacity: 1,
       width: 2,
     },
     move: {
       enable: true,
-      speed: 6,
-      direction: "bottom",
+      speed: 8,
+      direction: "none",
       random: false,
       straight: false,
       out_mode: "out",
@@ -71,12 +71,12 @@ const config = {
     detect_on: "canvas",
     events: {
       onhover: {
-        enable: true,
-        mode: "bubble",
+        enable: false,
+        mode: "grab",
       },
       onclick: {
-        enable: true,
-        mode: "repulse",
+        enable: false,
+        mode: "push",
       },
       resize: true,
     },
@@ -84,14 +84,14 @@ const config = {
       grab: {
         distance: 400,
         line_linked: {
-          opacity: 0.5,
+          opacity: 1,
         },
       },
       bubble: {
         distance: 400,
-        size: 4,
-        duration: 0.3,
-        opacity: 1,
+        size: 40,
+        duration: 2,
+        opacity: 8,
         speed: 3,
       },
       repulse: {

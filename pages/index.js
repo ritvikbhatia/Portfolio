@@ -5,11 +5,8 @@ import { Box } from "../styles";
 
 export default function Home() {
   return (
-    <Box>
-      hi
-      <Box height={1500} width={89} backgroundColor="blue">
-        AA
-      </Box>
+    <Box color="white" type="center">
+      Ritvik Bhatia
     </Box>
   );
 }

@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import Particles from "react-particles-js";
 import config from "../config/particlesjs-config";
+import { colors } from "../styles/theme";
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -11,7 +12,7 @@ function MyApp({ Component, pageProps }) {
           left: 0,
           width: "100%",
           height: "100% !important",
-          backgroundColor: "gray",
+          backgroundColor: colors?.back,
           zIndex: -2,
         }}
       >

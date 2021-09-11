@@ -5,7 +5,7 @@ breakpoints.md = breakpoints[1];
 breakpoints.lg = breakpoints[2];
 
 export const colors = {
-  black: "#081F32",
+  back: "#2D3142",
   grey: "#6E798C",
   orange: "#ED6B65",
   blue: "#1D487B",
