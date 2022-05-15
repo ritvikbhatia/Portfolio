@@ -1,7 +1,7 @@
 import { Box, Button } from "../styles";
 import { FileText, Briefcase, Layers } from "@geist-ui/react-icons";
 import { colors } from "../styles/theme";
-import Link from "next/Link";
+import Link from "next/link";
 
 export default function Tags() {
   return (
