@@ -23,6 +23,7 @@ export default function Home() {
                 setIsHovered("");
               }}
               p={4}
+              key={i?.name}
             >
               <Box
                 styles={{
