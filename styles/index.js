@@ -134,6 +134,7 @@ export const Para = styled.p(
   {
     fontSize: theme.fontSizes[4],
     color: theme.colors.grey,
+    fontFamily: theme.fonts.UL,
     lineHeight: "24px",
   },
   space,
