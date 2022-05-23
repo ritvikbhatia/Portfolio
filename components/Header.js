@@ -10,7 +10,7 @@ export default function Tags() {
         <Button>Ritvik Bhatia</Button>
       </Link>
       <Box type="row">
-        <Link href="/experience">
+        <Link href="/about">
           <Box type="row">
             <Briefcase color={colors?.primary}></Briefcase>
             <Button>Experience</Button>

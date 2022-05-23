@@ -3,6 +3,8 @@ import Particles from "react-particles-js";
 import config from "../config/particlesjs-config";
 import { colors } from "../styles/theme";
 import "../styles/globals.css";
+import "@react-pdf-viewer/core/lib/styles/index.css";
+import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import Header from "../components/Header";
 
 function MyApp({ Component, pageProps }) {

@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <Box p={4}>
-      <H1 mb={0}>Projects </H1>
+      <H1 textAlign="center">Projects </H1>
       <Grid type="row" container justifyContent={"space-evenly"}>
         {data?.map((i) => {
           return (
