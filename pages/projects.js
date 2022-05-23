@@ -86,10 +86,10 @@ export default function Home() {
                       width="140px"
                       src={i?.image}
                       style={{
-                        width: "200px",
-                        height: "100px",
+                        width: "210px",
+                        height: "130px",
                         margin: "0 auto",
-                        borderRadius: "20%",
+                        borderRadius: "25%",
                         overflow: "hidden",
                         border: "4px solid " + colors?.primary,
                         boxShadow: "0 10px 40px rgba(0,0,0,0.5)",
@@ -118,72 +118,63 @@ var data = [
   {
     name: "Smart City",
     time: "Tecknex 2017",
-    image:
-      "https://vignette.wikia.nocookie.net/supernatural-diaries/images/b/b2/Cara-delevingne-profile.jpg/revision/latest?cb=20140217060511",
+    image: "/images/smartCity.gif",
     desc: "smart city is a 5 component model of a city involving smart solutions to day to day problems.city consists of smart parking , smart pollution toll,smart street lights smart waste management system and smart traffic lights .",
     link: "/link",
   },
   {
     name: "Early Prediction of Lifestyle Diseases",
     time: "SIH 2019 Software",
-    image:
-      "https://steamuserimages-a.akamaihd.net/ugc/916918533107756109/283D620FFDBC088A442F4908106C2DB4A76B58F4/",
+    image: "/images/early.webp",
     desc: "an application that takes input the various lifestyle habits of an individual and gives the chances of various diseases based on that as an output .",
     link: "/link",
   },
   {
     name: "Codeal",
     time: "CN career-camp",
-    image:
-      "https://wallpaperstock.net/beautiful-lily-collins-wallpapers_36770_1600x1200.jpg",
+    image: "/images/codeal.png",
     desc: "A full stack , completely scalable social media web site with all important features like friends , chatting , comments , likes , posts etc",
     link: "/link",
   },
   {
     name: "Patient Care System",
     time: "Fervor Hackathon",
-    image:
-      "https://steamuserimages-a.akamaihd.net/ugc/916918533107756109/283D620FFDBC088A442F4908106C2DB4A76B58F4/",
-    desc: "An Iot enabled glove which transmit messages to the care taker by sensing hand movements. The device converts movements to readable messages at the receiver side.Glove is also attached with pulse and temperature sensor which sends messages in emergencies",
+    image: "/images/glove.jpeg",
+    desc: "An Iot enabled glove which transmit messages by sensing hand movements converts them to readable messages. Glove is also attached with pulse and temperature sensor which sends messages in emergencies",
     link: "/link",
   },
   {
     name: "Crop Management System",
     time: "SIH 2019 Hardware",
-    image:
-      "https://wallpaperstock.net/beautiful-lily-collins-wallpapers_36770_1600x1200.jpg",
+    image: "/images/crop.jpeg",
     desc: "Iot model that helps in farming and similar activities ",
     link: "/link",
   },
   {
     name: "ML Vending Machine",
     time: "Btech Minor Project",
-    image:
-      "https://wallpaperstock.net/beautiful-lily-collins-wallpapers_36770_1600x1200.jpg",
+    image: "/images/vending.jpeg",
     desc: "It is a machine learning based medical prescription reading machine , which reads handwritten prescription notes and releases corresponding medicines on the other side with IoT.",
     link: "/link",
   },
   {
     name: "Mocking bot",
     time: "Eyantra IIT BOMBAY",
-    image:
-      "https://steamuserimages-a.akamaihd.net/ugc/916918533107756109/283D620FFDBC088A442F4908106C2DB4A76B58F4/",
+    image: "/images/mocking.jpg",
     desc: "an audio processing bot that listens to piano notes and play them on a piano with hitting mechanism .",
     link: "/link",
   },
   {
     name: "integer sequence identification",
     time: "Innovians Hackathon",
-    image:
-      "https://wallpaperstock.net/beautiful-lily-collins-wallpapers_36770_1600x1200.jpg",
+    image: "/images/integer.png",
     desc: "A machine learning based project that identifies the next element of any input sequence.",
     link: "/link",
   },
   {
     name: "Bank Management System",
     time: "Class 12th final project",
-    image:
-      "https://wallpaperstock.net/beautiful-lily-collins-wallpapers_36770_1600x1200.jpg",
+    image: "/images/bank.jpeg",
     desc: "A model on C++ using concepts of file handling and oops.",
     link: "/link",
   },
