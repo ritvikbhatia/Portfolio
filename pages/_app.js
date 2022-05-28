@@ -10,6 +10,7 @@ import Header from "../components/Header";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <div
         style={{
           position: "fixed !important",

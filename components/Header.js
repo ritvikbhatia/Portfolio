@@ -3,7 +3,7 @@ import { FileText, Briefcase, Layers } from "@geist-ui/react-icons";
 import { colors } from "../styles/theme";
 import Link from "next/link";
 
-export default function Tags() {
+export default function Header() {
   return (
     <Box type="row" px={4} py={2}>
       <Link href="/">
